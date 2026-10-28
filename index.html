@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FOODPICKER ITF – สุ่มเมนูอาหาร</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&family=Sarabun:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-code">69070154</div>
+    <div class="nav-title">FOODPICKER ITF</div>
+    <div class="nav-spacer"></div>
+  </nav>
+
+  <main>
+    <div class="card">
+      <div class="card-image-wrapper">
+        <img id="foodImage" class="card-image" alt="รูปอาหาร" />
+      </div>
+      <h2 id="foodName" class="card-name">กำลังสุ่มเมนู...</h2>
+      <p id="foodDesc" class="card-desc">กดปุ่มด้านล่างเพื่อสุ่มเมนูอาหาร</p>
+      <div id="foodPrice" class="card-price">-</div>
+    </div>
+
+    <button id="pickBtn" class="pick-button">สุ่มเมนูอาหาร</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
